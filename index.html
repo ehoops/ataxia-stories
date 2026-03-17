@@ -166,6 +166,61 @@
     line-height: 1.55;
   }
 
+  /* ── TRORILUZOLE CONTEXT BAND ── */
+  .drug-band {
+    background: var(--deep-teal);
+    color: #fff;
+    padding: 40px 24px;
+    text-align: center;
+  }
+  .drug-band-inner {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .drug-band h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+    letter-spacing: .01em;
+  }
+  .drug-band h2 em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+  .drug-band p {
+    font-size: .975rem;
+    line-height: 1.7;
+    color: rgba(255,255,255,.82);
+    margin-bottom: 10px;
+  }
+  .drug-band p:last-child { margin-bottom: 0; }
+  .drug-band strong { color: #fff; }
+
+  /* ── DRUG CALLOUT (inside story cards) ── */
+  .drug-callout {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    background: rgba(26,92,107,.07);
+    border: 1px solid rgba(26,92,107,.18);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 24px 0;
+  }
+  .drug-callout-icon {
+    font-size: 1.4rem;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .drug-callout p {
+    margin: 0;
+    font-size: .95rem;
+    color: var(--text-mid);
+  }
+  .drug-callout strong { color: var(--deep-teal); }
+
   /* ── FOOTER ── */
   footer {
     text-align: center;
@@ -188,9 +243,18 @@
 <header class="hero">
   <div class="hero-ribbon">Spinocerebellar Ataxia</div>
   <h1>Stories of Living<br>with <em>Ataxia</em></h1>
-  <p class="hero-sub">Two patients share what it means to live with a progressive, incurable neurological disease — and how access to treatment has changed everything.</p>
+  <p class="hero-sub">Two patients living with Spinocerebellar Ataxia share how <em>troriluzole</em> — an investigational drug awaiting FDA approval — has preserved their independence, mobility, and quality of life.</p>
   <div class="hero-divider"></div>
 </header>
+
+<section class="drug-band">
+  <div class="drug-band-inner">
+    <h2>What is <em>Troriluzole</em>?</h2>
+    <p>Troriluzole is an investigational drug developed to slow neurodegeneration in Spinocerebellar Ataxia. It is an improved form of riluzole — a medication that has been FDA-approved for ALS for over 30 years — with better tolerability and bioavailability.</p>
+    <p>It is not a cure. Because the brain cannot regenerate lost neurons, function that has already been lost cannot be recovered. But for patients who still have function to protect, troriluzole has shown the ability to slow or halt further decline — preserving independence, mobility, and quality of life that would otherwise be lost.</p>
+    <p>Troriluzole has not yet received FDA approval for SCA. <strong>The stories below show what is at stake.</strong></p>
+  </div>
+</section>
 
 <main>
 
@@ -205,7 +269,12 @@
 
     <p>Amy was diagnosed with Spinocerebellar Ataxia Type 1 in her 30s. Before her own diagnosis, she watched this same disease take her mother's life at just 60 years old. She understood exactly what untreated progression looked like.</p>
 
-    <p>In 2017, Amy enrolled in a clinical trial for an investigational medication called troriluzole. It is not a cure. But it has <strong>significantly slowed the progression of her disease</strong>. In SCA1, patients typically decline steadily and experience sharp deterioration within several years. Amy expected that trajectory. Instead, the steep decline was delayed for nearly a decade.</p>
+    <p>In 2017, Amy enrolled in a clinical trial for troriluzole. In SCA1, patients typically decline steadily and experience sharp deterioration within several years. Amy expected that trajectory. Instead, the steep decline was <strong>delayed for nearly a decade</strong>.</p>
+
+    <div class="drug-callout">
+      <div class="drug-callout-icon">💊</div>
+      <p><strong>9 years on troriluzole</strong> — no side effects, consistent medical monitoring throughout. Amy's experience is one of the longest real-world records of troriluzole use in an SCA1 patient.</p>
+    </div>
 
     <div class="pull-quote">
       <p>"Every year of preserved mobility and independence matters. Every year of delayed deterioration is meaningful."</p>
@@ -233,13 +302,18 @@
 
     <p>After leaving coaching, Erin found community through local bike rides. Over time, even biking became harder to do safely. Two years ago, she was debating getting a trike — and researching whether low-to-the-ground was safer than a taller, less stable model.</p>
 
-    <p>Eighteen months ago, she started taking troriluzole. It is completely safe, with no side effects. It is an improved version of riluzole, an ALS drug that has been FDA-approved for 30 years. And it has been <strong>completely transformational</strong>.</p>
+    <p>Eighteen months ago, she started taking troriluzole. And it has been <strong>completely transformational</strong>.</p>
+
+    <div class="drug-callout">
+      <div class="drug-callout-icon">💊</div>
+      <p><strong>Troriluzole significantly slowed Erin's decline.</strong> She still cannot coach — that function was already gone before she started treatment. But she has maintained far more than she would have otherwise, including the ability to ride her two-wheel bike and complete an e-bike tour around Europe.</p>
+    </div>
 
     <div class="pull-quote">
       <p>"Two hours per day is so much more time for life."</p>
     </div>
 
-    <p>Because the brain cannot regenerate, she is still not able to coach basketball — that ability was already gone. But she has maintained her life without further degeneration. She still rides her two-wheel bike. She completed a bike tour around Europe.</p>
+    <p>Because the brain cannot regenerate, she is still not able to coach basketball — that ability was already gone. But she has maintained her life without further degeneration. She still rides her two-wheel bike. She completed an e-bike tour around Europe.</p>
 
     <p>She also went from sleeping 10–12 hours per night to a much more manageable 8–10. Two extra hours every day. More time for life.</p>
   </article>
