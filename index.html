@@ -3,8 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stories of Living with Ataxia</title>
-<meta name="description" content="Amy Messigian and Erin Hoops share their experiences living with Spinocerebellar Ataxia and the difference troriluzole has made in their lives.">
+
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SITE URL — update both values when switching to    ║
+     ║  a custom domain (search for "ehoops.github.io")    ║
+     ╚══════════════════════════════════════════════════════╝ -->
+
+<!-- SEO -->
+<title>Join the Fight for FDA Approval of Troriluzole | SCA Patient Stories</title>
+<meta name="description" content="Patients with Spinocerebellar Ataxia are calling on Congress and the FDA to approve troriluzole. Read Amy and Erin's stories — then add your voice.">
+<link rel="canonical" href="https://ehoops.github.io/ataxia-stories/">
+
+<!-- Open Graph (Facebook, LinkedIn, iMessage, Slack, etc.) -->
+<meta property="og:type"        content="website">
+<meta property="og:url"         content="https://ehoops.github.io/ataxia-stories/">
+<meta property="og:site_name"   content="SCA Patient Voices">
+<meta property="og:title"       content="Your Story Could Help Win FDA Approval">
+<meta property="og:description" content="Patients with Spinocerebellar Ataxia are calling on Congress and the FDA to approve troriluzole. Read Amy and Erin's stories — then add your voice.">
+<meta property="og:image"       content="https://ehoops.github.io/ataxia-stories/og-image.png">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt"   content="SCA Patient Voices — Join the Fight for FDA Approval of Troriluzole">
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="Your Story Could Help Win FDA Approval">
+<meta name="twitter:description" content="Patients with Spinocerebellar Ataxia are calling on Congress and the FDA to approve troriluzole. Read Amy and Erin's stories — then add your voice.">
+<meta name="twitter:image"       content="https://ehoops.github.io/ataxia-stories/og-image.png">
+<meta name="twitter:image:alt"   content="SCA Patient Voices — Join the Fight for FDA Approval of Troriluzole">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
@@ -221,6 +247,57 @@
   }
   .drug-callout strong { color: var(--deep-teal); }
 
+  /* ── CTA BUTTON ── */
+  .cta-btn {
+    display: inline-block;
+    background: var(--gold);
+    color: #fff;
+    font-family: 'Source Serif 4', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    letter-spacing: .03em;
+    transition: background .15s, transform .1s;
+  }
+  .cta-btn:hover {
+    background: var(--gold-light);
+    transform: translateY(-1px);
+  }
+  .hero-cta { margin-top: 32px; }
+
+  /* ── JOIN BAND ── */
+  .join-band {
+    background: linear-gradient(160deg, var(--deep-teal) 0%, #0F3D48 100%);
+    color: #fff;
+    text-align: center;
+    padding: 64px 24px;
+  }
+  .join-band-inner {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .join-band h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+  .join-band h2 em { font-style: italic; color: var(--gold-light); }
+  .join-band p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(255,255,255,.82);
+    margin-bottom: 14px;
+  }
+  .join-band .cta-btn {
+    font-size: 1.1rem;
+    padding: 16px 44px;
+    margin-top: 10px;
+  }
+
   /* ── FOOTER ── */
   footer {
     text-align: center;
@@ -241,9 +318,12 @@
 <body>
 
 <header class="hero">
-  <div class="hero-ribbon">Spinocerebellar Ataxia</div>
-  <h1>Stories of Living<br>with <em>Ataxia</em></h1>
-  <p class="hero-sub">Two patients living with Spinocerebellar Ataxia share how <em>troriluzole</em> — an investigational drug awaiting FDA approval — has preserved their independence, mobility, and quality of life.</p>
+  <div class="hero-ribbon">Spinocerebellar Ataxia · Patient Voices</div>
+  <h1>Your Story Could<br>Help <em>Win</em> Approval.</h1>
+  <p class="hero-sub">Amy and Erin are two SCA patients whose lives have been transformed by <em>troriluzole</em> — an investigational drug awaiting FDA approval. But Congress needs to hear from <strong>many more of us</strong>. Join our mailing list and add your voice to the fight.</p>
+  <div class="hero-cta">
+    <a href="https://docs.google.com/forms/d/1j04zuBclz6xqL3I95iXlBVZoCKrEEwsLXY5J3av_XEw/edit" class="cta-btn" target="_blank" rel="noopener">Join the Fight &rarr;</a>
+  </div>
   <div class="hero-divider"></div>
 </header>
 
@@ -319,6 +399,15 @@
   </article>
 
 </main>
+
+<section class="join-band">
+  <div class="join-band-inner">
+    <h2>Ready to Share<br><em>Your</em> Story?</h2>
+    <p>Amy and Erin's stories are just two examples of what troriluzole has meant for SCA patients. The FDA and Congress need to hear from as many patients as possible.</p>
+    <p>Join our mailing list and we'll reach out with simple ways you can share your experience — directly with the people who have the power to approve this drug.</p>
+    <a href="https://docs.google.com/forms/d/1j04zuBclz6xqL3I95iXlBVZoCKrEEwsLXY5J3av_XEw/edit" class="cta-btn" target="_blank" rel="noopener">Join the Fight &rarr;</a>
+  </div>
+</section>
 
 <footer>
   Stories shared in support of the SCA community and FDA approval of troriluzole.
